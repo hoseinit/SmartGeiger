@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress_cpm"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            custom:arc_progress="0"
+            custom:arc_max="100"
+            custom:arc_suffix_text="CPM"
+            android:layout_marginBottom="20dp"
+            custom:arc_bottom_text_size="15sp"
+            custom:arc_unfinished_color="@android:color/holo_green_light"
+            custom:arc_finished_color="@android:color/holo_red_dark"
+            />
+
+<!--        <TextView
+            android:id="@+id/textresultcpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="55sp"
+            android:text="1" />-->
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress_Sv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            custom:arc_progress="0"
+            custom:arc_max="100"
+            custom:arc_suffix_text="uSv"
+            custom:arc_bottom_text_size="15sp"
+            custom:arc_unfinished_color="@android:color/holo_green_light"
+            custom:arc_finished_color="@android:color/holo_red_dark"
+            />
+       <!-- <TextView
+            android:id="@+id/textresultsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="55sp"
+            android:text="1" />-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_on"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="45sp"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            android:text="@string/start"/>
+
+    </LinearLayout>
+
+</LinearLayout>

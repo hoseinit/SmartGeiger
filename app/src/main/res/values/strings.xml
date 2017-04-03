@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Geiger</string>
+
+    <string name="action_calibration">کالیبر کردن</string>
+    <string name="sensor_attached">سنسور وصل شد</string>
+    <string name="sensor_not_attached">سنسور پیدا نشد</string>
+    <string name="start">شروع</string>
+    <string name="stop">توقف</string>
+</resources>
