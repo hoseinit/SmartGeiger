@@ -10,7 +10,4 @@
     <string name="prefs_key_CPM">key_CPM</string>
     <string name="prefs_key_SV">key_SV</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="prefs_key_firsttime">first_time</string>
 </resources>
