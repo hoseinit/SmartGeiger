@@ -58,19 +58,29 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:gravity="center">
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/button_on"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="250dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:onClick="mOnClick"
-            android:textSize="45sp"
+            android:textSize="25sp"
             android:elevation="10dp"
             android:translationZ="10dp"
             android:text="@string/start"/>
 
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_pref"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:textSize="25sp"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            android:text="@string/settings"/>
     </LinearLayout>
 
 </LinearLayout>

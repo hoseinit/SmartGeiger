@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="CPM">
+
+        <EditTextPreference
+            android:key="checkBoxPref"
+            android:singleLine="false"
+            android:summary="click this little box"
+            android:title="مقدار بیشینه" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
